@@ -1,0 +1,20 @@
+{
+  "name": "bimlinkserver",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/run"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "crypto": "^1.0.1",
+    "express": "~4.16.0",
+    "helmet": "^3.12.1",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.1.3",
+    "morgan": "~1.9.0",
+    "msgpack-lite": "^0.1.26",
+    "sequin": "^0.1.1"
+  }
+}
