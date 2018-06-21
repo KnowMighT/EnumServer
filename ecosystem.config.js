@@ -21,7 +21,7 @@ module.exports = {
             ref: 'origin/master',
             repo: 'git@github.com:KnowMighT/EnumServer.git',
             path: '/home/Desperado/BimLink/PM2Deploy',
-            'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.json --env production'
+            'post-deploy': 'npm install'
         },
 
         dev: {
