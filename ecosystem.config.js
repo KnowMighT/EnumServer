@@ -4,7 +4,7 @@ module.exports = {
     apps: [
         {
             name: 'EnumServer',
-            script: './bin/run.js',
+            script: 'bin/run.js',
             env: {
                 COMMON_VARIABLE: 'true',
             },
