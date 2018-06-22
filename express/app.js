@@ -18,7 +18,7 @@ app.use(cookieParser());
 app.use(helmet({}));
 app.disable('x-powered-by');
 app.disable('etag');
-app.use(express.static('public'));
+app.use(express.static('public/build'));
 
 app.use((req, res, next) => {
     req.body_empty = body_empty;
